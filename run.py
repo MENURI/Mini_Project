@@ -14,7 +14,7 @@ app.config['SECRET_KEY'] = '12341234' #  비밀번호
 # [3] SocketIO 생성시 Flask 객체를 래핑
 socketio = SocketIO( app, cors_allowed_origins="*", async_mode='threading' )
 
-
+# dd
 @app.route('/')
 def home():    
     # 렌더링시 데이터를 전달하고 싶으면 키=값 형태로 파라미터를 추가
